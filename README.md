@@ -1,7 +1,7 @@
-# applotita
+# appLotita
 
-A new Flutter project.
 
+A project for fourth semester Software engineering and project management. :))
 ## Getting Started
 
 This project is a starting point for a Flutter application.
