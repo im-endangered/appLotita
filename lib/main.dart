@@ -26,10 +26,10 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.percent)),
-        ],
-        title: Text("Welcome"),
+        // actions: [
+        //   IconButton(onPressed: () {}, icon: Icon(Icons.percent)),
+        // ],
+        title: Text("appLotita-Simplifying your lifestyle"),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
-                  padding: EdgeInsets.all(10),
+                  padding: EdgeInsets.all(9),
                   child: Text(
                     DateFormat.yMMMMd().format(DateTime.now()),
                     textAlign: TextAlign.center,
