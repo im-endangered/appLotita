@@ -1,3 +1,5 @@
+import 'package:applotita/splitBills.dart';
+
 import './homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -29,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text("appLotita-Simplifying your lifestyle"),
       ),
-      body: HomePage(),
+      body: SplitBills(),
     );
   }
 }
